@@ -1,0 +1,26 @@
+.about-title {
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.about-image{
+    width: 100%;
+    object-fit: cover;
+    padding: 1.1rem;
+}
+.about-right {
+    padding: 1.1rem;
+}
+.about-right h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.about-text {
+    font-size: 13px;
+}
+.about-list li{
+    font-size: 14px;
+    list-style: square;
+}

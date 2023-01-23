@@ -1,0 +1,36 @@
+.slide-image {
+    height: 600px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-caption {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}  
+
+.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem; 
+}
+.center h3 {
+    font-weight: 900;
+    font-size: 2.6rem;
+    padding: 1rem;
+    color: #f8f9fa;
+}
+.center p {
+    font-weight: 800;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
