@@ -33,6 +33,9 @@ class Navbar extends Component {
                                 <a href='/Portfolio/'>Portfolio</a>
                             </li>
                             <li>
+                                <a href='/Price/'>Price</a>
+                            </li>
+                            <li>
                                 <a href='/Blogs/'>Blog</a>
                             </li>
                             <li>

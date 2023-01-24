@@ -7,6 +7,7 @@ const HomePage = () => {
     <div className='mt-5 pt-4'>
         <MainSlider/>
         <About/>
+        
     </div>
   )
 }

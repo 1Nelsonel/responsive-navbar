@@ -1,0 +1,19 @@
+.price-title {
+    padding: 2rem;
+}
+.price-title h3 {
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.price-list li {
+    border-bottom: 1.3px solid rgb(202, 197, 197);
+    padding: 1.2rem;
+}
+.price-list{
+    padding-left: 0px;
+}
+.strike-through {
+    text-decoration: line-through;
+}
