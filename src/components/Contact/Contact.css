@@ -1,0 +1,12 @@
+.contact-header {
+    text-decoration: underline;
+}
+.contact-links a {
+    text-decoration: none !important;
+}
+.contact-links a:hover{
+    color: aqua;
+}
+.contact-links {
+    padding: 1.2rem !important;
+}

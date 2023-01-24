@@ -50,6 +50,9 @@ li {
     list-style: none;
     text-decoration: none;
 }
+.links-right li a:hover {
+    color: aqua;
+}
 .list a {
     text-decoration: none;
 }
