@@ -1,7 +1,6 @@
 import React from 'react'
-import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import { Check, MarkdownFill, X } from 'react-bootstrap-icons'
-import CardHeader from 'react-bootstrap/esm/CardHeader'
+import { Card, Col, Container, Row } from 'react-bootstrap'
+import { Check, X } from 'react-bootstrap-icons'
 import { CardColumns } from 'reactstrap'
 import './Price.css'
 

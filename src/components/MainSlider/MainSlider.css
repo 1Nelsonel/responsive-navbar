@@ -1,7 +1,10 @@
-.slide-image {
-    height: 600px;
-    width: 100%;
-    /* object-fit: cover; */
+.d-block {
+    height: 570px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    background-repeat: no-repeat !important;
+    background-size: "cover" !important;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .main {
@@ -16,21 +19,32 @@
 
 .center {
     position: relative;
-    top: 50%;
+    top: 50%; 
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); 
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.5);
-    padding: 1rem; 
+    padding: 0.5rem; 
+    font-weight: normal;
 }
 .center h3 {
     font-weight: 900;
     font-size: 2.6rem;
-    padding: 1rem;
-    color: #f8f9fa;
+    padding-top: 2rem;
+    color: #6de9f1;
+    text-align: center;
 }
 .center p {
     font-weight: 800;
     font-size: 1.3rem;
     padding: 1rem;
 }
+.btn-primary {
+    background: cyan !important;
+    outline: none !important;
+    color: black !important;
+}
+.btn-primary:hover {
+    background-color: #f8f9fa !important;
+}
+

@@ -10,6 +10,7 @@ import ServicesPage from './pages/ServicesPage';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer/Footer';
 import PricePage from './pages/PricePage';
+import ServiceDetail from './pages/ServiceDetail';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/About/" element={<AboutPage />} />
           <Route path="/Contact/" element={<ContactPage />} />
           <Route path="/Services/" element={<ServicesPage />} />
+          <Route path='/Service/:id/' element={<ServiceDetail />} />
           <Route path="/Price/" element={<PricePage />} />
           <Route path="/Portfolio/" element={<Portfolio />} />
         </Routes>

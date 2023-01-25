@@ -30,7 +30,7 @@ class Navbar extends Component {
                                 <a href='/Services/'>Services</a>
                             </li>
                             <li>
-                                <a href='/Portfolio/'>Portfolio</a>
+                                <a href='/'>Portfolio</a>
                             </li>
                             <li>
                                 <a href='/Price/'>Price</a>

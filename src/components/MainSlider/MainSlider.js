@@ -12,7 +12,7 @@ function MainSlider() {
     <Carousel fade>
       <Carousel.Item sm={4}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={slide1}
           alt="First slide"
         />
@@ -20,7 +20,7 @@ function MainSlider() {
           <div className='center'>
             <h3>NelsonelTech Solutions</h3>
             <p>Your All times Information Technology provider</p>
-            <button className='btn btn-primary'>Get Started</button>
+            <a href='/' className='btn btn-primary'>Get Stated</a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -35,7 +35,7 @@ function MainSlider() {
           <div className='center'>
             <h3>NelsonelTech Solutions</h3>
             <p>Your All times Information Technology provider</p>
-            <button className='btn btn-primary'>Get Started</button>
+            <a href='/' className='btn btn-primary'>Get Stated</a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -50,7 +50,7 @@ function MainSlider() {
           <div className='center'>
             <h3>NelsonelTech Solutions</h3>
             <p>Your All times Information Technology provider</p>
-            <button className='btn btn-primary'>Get Started</button>
+            <a href='/' className='btn btn-primary'>Get Stated</a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
